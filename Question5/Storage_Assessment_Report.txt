@@ -1,0 +1,19 @@
+Question 5 - Storage Health Assessment
+
+1. Available Storage Devices
+Storage devices were identified using the lsblk command.
+
+2. Mounted File Systems
+Mounted file systems were displayed using df -h.
+
+3. Disk Usage Statistics
+Disk usage information was collected using du -sh.
+
+4. Inode Utilization
+Inode usage was checked using df -i.
+
+5. Storage Health Observation
+The storage system is healthy with sufficient available space and inode availability.
+
+6. Recommendation
+Regularly monitor storage usage, remove unnecessary files, and maintain sufficient free disk space to ensure optimal performance.

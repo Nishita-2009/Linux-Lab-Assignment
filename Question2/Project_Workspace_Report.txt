@@ -1,0 +1,23 @@
+Question 2 - Secure Project Workspace Setup
+
+Directory Created:
+ProjectWorkspace
+
+Files Created:
+plan.txt
+notes.txt
+budget.txt
+
+Permissions:
+plan.txt -> 700
+notes.txt -> 600
+budget.txt -> 644
+
+Ownership:
+Owner: g_nishita_sri
+
+Umask:
+0022
+
+Explanation:
+Permissions were modified to restrict unauthorized access. Sensitive files such as notes.txt are readable and writable only by the owner, while budget.txt is readable by others. Proper permissions help secure project data and prevent accidental modification.

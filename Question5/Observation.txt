@@ -1,0 +1,14 @@
+lsblk
+Observation: Displayed all available storage devices and partitions.
+
+df -h
+Observation: Displayed mounted file systems and available disk space in a human-readable format.
+
+df -i
+Observation: Displayed inode usage for each mounted filesystem.
+
+du -sh ~
+Observation: Displayed the total disk space used by the home directory.
+
+vi
+Observation: Used the vi editor to create the storage assessment report.

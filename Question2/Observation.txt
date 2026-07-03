@@ -1,0 +1,18 @@
+mkdir
+Observation: Created a secure project workspace directory.
+
+touch
+Observation: Created project files for storing documentation.
+
+ls -l
+Observation: Displayed file permissions before and after modification.
+
+chmod
+Observation: Changed permissions to provide different access levels.
+
+ls -ld
+Observation: Displayed ownership details of the workspace.
+
+umask
+Observation: Displayed the default permission mask used while creating files.
+

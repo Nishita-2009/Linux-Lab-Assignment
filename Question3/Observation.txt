@@ -1,0 +1,21 @@
+echo
+Observation: Created a sample text file.
+
+ln
+Observation: Created a hard link that shares the same inode as the original file.
+
+ln -s
+Observation: Created a symbolic link pointing to the original file.
+
+ls -li
+Observation: Displayed inode numbers and verified link relationships.
+
+stat
+Observation: Displayed detailed metadata for the original file and both links.
+
+rm
+Observation: Deleted the original file to study the behavior of the links.
+
+cat
+Observation: Hard link remained accessible after deletion of the original file, while the symbolic link became invalid.
+

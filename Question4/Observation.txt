@@ -1,0 +1,20 @@
+echo
+Observation: Created a sample log file.
+
+cat
+Observation: Displayed the contents of the log file.
+
+lsof
+Observation: Listed currently open files and processes.
+
+ulimit -a
+Observation: Displayed system resource limits.
+
+ls > output.txt
+Observation: Redirected normal command output to a file.
+
+ls nonexistentfile 2> error.txt
+Observation: Redirected error output to a separate file.
+
+ls app.log nonexistentfile > combined_output.txt 2>&1
+Observation: Combined both output and error into a single file.

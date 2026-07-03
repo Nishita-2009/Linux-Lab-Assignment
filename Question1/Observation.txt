@@ -1,0 +1,17 @@
+1. whoami
+Observation: This command displays the currently logged-in username.
+
+2. groups
+Observation: This command shows all groups that the current user belongs to.
+
+3. echo $SHELL
+Observation: This command displays the default shell being used, which is /bin/bash.
+
+4. pwd
+Observation: This command prints the current working directory.
+
+5. ls -la
+Observation: This command lists all files and directories, including hidden files and their permissions.
+
+6. ping -c 4 google.com
+Observation: This command checks internet connectivity. The system successfully communicated with Google's server with 0% packet loss.

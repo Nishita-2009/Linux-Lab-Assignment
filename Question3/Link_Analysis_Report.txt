@@ -1,0 +1,23 @@
+Question 3 - File System and Link Analysis
+
+1. Inode Numbers
+original.txt and hardlink.txt shared the same inode number.
+softlink.txt had a different inode number.
+
+2. Hard Link vs Symbolic Link
+A hard link points directly to the file's inode.
+A symbolic link stores the path of the original file.
+
+3. Effect of Deleting Original File
+After deleting original.txt, hardlink.txt continued to work normally.
+softlink.txt became a broken link because its target no longer existed.
+
+4. Metadata
+Metadata was collected using the stat command.
+Hard link shared metadata with the original file.
+Symbolic link had separate metadata.
+
+5. Conclusion
+Hard links remain usable even if the original filename is deleted.
+Symbolic links depend on the existence of the original file.
+
